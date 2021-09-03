@@ -3,7 +3,7 @@ import time
 
 	def getWeather(canvas):
 	    city = textField.get()
-	    api = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=06c921750b9a82d8f5d1294e1586276f"
+	   
 	
 
 	    json_data = requests.get(api).json()
